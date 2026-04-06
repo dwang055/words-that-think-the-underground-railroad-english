@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Words That Think Vocabulary</title>
+<title>Words That Think · The Underground Railroad</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
-<meta name="description" content="Learn vocabulary from Unknown Book by Unknown Author.">
+<meta name="description" content="Master 200+ advanced vocabulary words from Colson Whitehead's The Underground Railroad, with bilingual English-Chinese definitions, natural everyday examples, and original sentences that explore the novel's searing themes: the brutality of slavery, the perilous quest for freedom, the myth of American progress, and the indomitable spirit of those who ride the rails toward an unknown dawn.">
 <meta name="theme-color" content="#06131a">
 <style>
 :root {
@@ -1037,9 +1037,9 @@ footer {
 
 <div class="wrapper">
   <div class="app-header">
-    <h1>Words That Think</h1>
-    <div class="tagline">Increase your vocabulary. Strengthen your thought.</div>
-    <div class="book-credit">230 words &middot; 230 sentences &middot; Unknown Author's Unknown Book</div>
+    <h1>Words That Think: The Underground Railroad Edition</h1>
+    <div class="tagline">Master the language of escape, survival, and resilience through Colson Whitehead's Pulitzer Prize–winning American odyssey.</div>
+    <div class="book-credit">230 words &middot; 230 sentences &middot; Colson Whitehead's The Underground Railroad</div>
     <div class="header-star-row">
       <button class="header-badge" id="starredToggleBtn">⭐ Starred Words (<span id="starredCountHeader">0</span>)</button>
       <button class="header-badge print-btn" id="printBtn" onclick="openPrintModal()">🖨️ Print</button>
@@ -1238,8 +1238,8 @@ footer {
   </div>
 
   <footer>
-    <div class="footer-author">Words from <em>Unknown Book</em> &middot; For Educational Use &middot; © 2026</div>
-    <div class="footer-quote">— Unknown Author, Unknown Book</div>
+    <div class="footer-author">Created by Daniel Wang (dwang055@gmail.com) · Words from The Underground Railroad (2016) by Colson Whitehead · For Educational Use · © 2026</div>
+    <div class="footer-quote">“If you want to see what this nation is all about, you have to ride the rails. Look outside as you speed through, and you'll find the true face of America.”<br>— Colson Whitehead, <em>The Underground Railroad</em></div>
   </footer>
 </div>
 
@@ -1249,11 +1249,11 @@ footer {
 // ============================================================
 // ============================================================
 const BOOK_CONFIG = {
-  "title": "Words That Think",
-  "bookName": "Unknown Book",
-  "author": "Unknown Author",
-  "year": "",
-  "tagline": "Increase your vocabulary. Strengthen your thought."
+  "title": "Words That Think: The Underground Railroad Edition",
+  "bookName": "The Underground Railroad",
+  "author": "Colson Whitehead",
+  "year": "2016",
+  "tagline": "Master the language of escape, survival, and resilience through Colson Whitehead's Pulitzer Prize–winning American odyssey."
 };
 const VOCAB = [
   {
@@ -3995,7 +3995,7 @@ function render() {
   } else {
     sentEn = highlightWord(entry.ex_en, entry.word);
     sentZh = highlightWord(entry.ex_zh, entry.word);
-    sentSource = '—Thematically aligned with <em>' + BOOK_CONFIG.bookName + '</em>';
+    sentSource = '— Thematically aligned with <em>' + BOOK_CONFIG.bookName + '</em>';
   }
   document.getElementById('sentEn').innerHTML = sentEn;
   document.getElementById('sentZh').innerHTML = sentZh;
